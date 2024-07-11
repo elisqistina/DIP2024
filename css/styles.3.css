@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D6A6A6;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #A15D5D;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+	height: 80px;
+}
+
+.logo-nav {
+    display: flex;
+    align-items: center;
+    align-items: center;
+}
+
+.logo {
+    width: 110px;
+    height: 110px;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+.works {
+    text-align: center;
+    padding: 40px;
+	padding-left: 0.95px;
+	padding-right: 120px;
+}
+
+.works h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+	padding-top: px;
+	text-align:left;
+	padding-left: 80px;
+}
+
+.works-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 210px;
+	padding-top:-50px;
+}
+
+.work-item {
+    width: 220px;
+    text-align: center;
+}
+
+.work-item img {
+    width: 350px ;
+    height: 330px;
+    margin-bottom: 0px;
+	padding-left:px;
+	padding-right: 33px;
+	margin-right: 15px;
+}
+
+.work-item p {
+    font-size: 24px;
+	padding-left: 60px;
+    text-align:center;
+	align-content:center;
+	
+}
+footer {
+    background-color: #A15D5D;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
